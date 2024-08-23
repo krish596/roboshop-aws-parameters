@@ -12,10 +12,18 @@ parameters = {
   "shipping.dev.DB_HOST" = { type = "String", value = "dev-mysql-rds-cluster.cluster-c3w48kiu8jbe.us-east-1.rds.amazonaws.com" }
 
 
+  "payment.dev.CART_HOST" = { type = "String", value = "cart-dev.kr7348202.online" }
+  "payment.dev.CART_PORT" = { type = "String", value = "80" }
+  "payment.dev.USER_HOST" = { type = "String", value = "user-dev.kr7348202.online" }
+  "payment.dev.USER_PORT" = { type = "String", value = "80" }
+
+  "payment.dev.AMQP_HOST" = { type = "String", value = "rabbitmq-dev.kr7348202.online" }
+  "rabbitmq.dev.AMQP_USER" = { type = "String", value = "roboshop" }
 
 
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
   "rds.dev.master_password" = { type = "String", value = "roboshop1234" }
+  "rabbitmq.dev.master_password" = { type = "String", value = "roboshop123" }
 
 }
 
