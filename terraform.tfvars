@@ -16,6 +16,7 @@ parameters = {
 
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
   "rds.dev.master_password" = { type = "String", value = "roboshop1234" }
+  "shipping.dev.master_password" = { type = "String", value = "RoboShop@1" }
 }
 
 
