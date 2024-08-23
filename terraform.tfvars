@@ -23,7 +23,7 @@ parameters = {
 
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
   "rds.dev.master_password" = { type = "String", value = "roboshop1234" }
-  "rabbitmq.dev.master_password" = { type = "String", value = "roboshop123" }
+  "rabbitmq.dev.AMQP_PASS" = { type = "String", value = "roboshop123" }
 
 }
 
