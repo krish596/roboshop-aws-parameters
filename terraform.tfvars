@@ -21,9 +21,14 @@ parameters = {
   "rabbitmq.dev.AMQP_USER" = { type = "String", value = "roboshop" }
 
 
-  "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
-  "rds.dev.master_password" = { type = "String", value = "roboshop1234" }
-  "rabbitmq.dev.AMQP_PASS" = { type = "String", value = "roboshop123" }
+  "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
+  "rds.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
+  "rabbitmq.dev.AMQP_PASS" = { type = "SecureString", value = "roboshop123" }
+
+ # Elastic Search
+
+  "elasticsearch.master_username" = { type = "String", value = "elastic" }
+  "elasticsearch.master_password" = { type = "SecureString", value = "_Msb*SLsHkVVi8aVA30I" }
 
 }
 
