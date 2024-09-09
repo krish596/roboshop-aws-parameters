@@ -37,6 +37,7 @@ parameters = {
 
 
   # AppVesion
+
   "payment.dev.appVesion" = { type = "String", value = "1.0.0" }
   "shipping.dev.appVesion" = { type = "String", value = "1.0.0" }
   "cart.dev.appVesion" = { type = "String", value = "1.0.0" }
