@@ -43,7 +43,7 @@ parameters = {
   "cart.dev.appVesion" = { type = "String", value = "1.0.0" }
   "user.dev.appVesion" = { type = "String", value = "1.0.0" }
   "catalogue.dev.appVesion" = { type = "String", value = "1.0.0" }
-  "frontend.dev.appVesion" = { type = "String", value = "1.0.0" }
+
 
 }
 
