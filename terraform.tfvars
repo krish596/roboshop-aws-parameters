@@ -31,7 +31,7 @@ parameters = {
   "elasticsearch.master_password" = { type = "SecureString", value = "_Msb*SLsHkVVi8aVA30I" }
 
   "nexus.username" = { type = "String", value = "admin" }
-  "nexus.pass" = { type = "SecureString", value = "admin123" }
+  "nexus.password" = { type = "SecureString", value = "admin123" }
 
 
 }
