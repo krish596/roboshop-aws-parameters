@@ -33,6 +33,13 @@ parameters = {
   "nexus.username" = { type = "String", value = "admin" }
   "nexus.password" = { type = "SecureString", value = "admin123" }
 
+  # AppVesion
+  "payment.dev.appVesion" = { type = "String", value = "1.0.0" }
+  "shipping.dev.appVesion" = { type = "String", value = "1.0.0" }
+  "cart.dev.appVesion" = { type = "String", value = "1.0.0" }
+  "user.dev.appVesion" = { type = "String", value = "1.0.0" }
+  "catalogue.dev.appVesion" = { type = "String", value = "1.0.0" }
+  "frontend.dev.appVesion" = { type = "String", value = "1.0.0" }
 
 }
 
