@@ -54,7 +54,7 @@ parameters = {
 
   "docdb.prod.master_username" = { type = "String", value = "docdbadmin" }
   "docdb.prod.endpoint" = { type = "String", value = "prod-docdb-cluster.cluster-c3w48kiu8jbe.us-east-1.docdb.amazonaws.com" }
-  "rds.prod.endpoint"       = { type = "String", value = "prod-mysql-rds-cluster.cluster-c3w48kiu8jbe.us-east-1.rds.amazonaws.com" }
+  "rds.prod.endpoint"  = { type = "String", value = "prod-mysql-rds-cluster.cluster-c3w48kiu8jbe.us-east-1.rds.amazonaws.com" }
   "rds.prod.master_username" = { type = "String", value = "devadmin" }
   "rds.prod.database_name" = { type = "String", value = "dummy" }
   "user.prod.REDIS_HOST" = { type = "String", value = "prod-redis-elasticache-cluster.obyypp.0001.use1.cache.amazonaws.com" }
